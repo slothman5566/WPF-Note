@@ -63,6 +63,7 @@
     <Compile Include="Miscellaneous\Behavior.cs" />
     <Compile Include="Miscellaneous\Dependency.cs" />
     <Compile Include="Model\Model.cs" />
+    <Compile Include="UIControls\CircleSlider.cs" />
     <Compile Include="ViewModel\DemoViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="View\VaildationWindow.xaml.cs">
@@ -80,6 +81,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Theme\CircleSlider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Theme\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\VaildationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
